@@ -39,8 +39,8 @@ Diffusion-based text-to-image generation models have greatly advanced the field 
 We implement our method with [diffusers](https://github.com/huggingface/diffusers) and the code runs on Python 3.9 with Pytorch 2.0.1. You can install the environment by following commands.
 
 ```base
-conda create -n anmFace python=3.9
-conda activate anmFace
+conda create -n swapFace python=3.9
+conda activate swapFace
 conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.8 -c pytorch -c nvidia
 pip install diffusers transformers gradio accelerate PEFT xformers==0.0.20
 ```
